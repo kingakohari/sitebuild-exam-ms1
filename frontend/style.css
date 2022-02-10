@@ -1,0 +1,102 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+outline: none;
+box-sizing: border-box;
+background: transparent;
+font-family: inherit;
+}
+a{
+text-decoration: none;
+}
+a img {
+border: none;
+}
+
+button,
+a {
+cursor: pointer;
+color: inherit;
+}
+
+textarea {
+resize: none;
+}
+
+button,
+textarea,
+select {
+appearance: none !important;
+border-radius: 0;
+}
+
+/*End of CSS reset*/
+
+#button-1-2, 
+#button-3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    max-width: 1200px;
+    font-family:  'Poppins', sans-serif;
+}
+
+#button-1-2{
+    background-color: #efd592;
+}
+
+#button-3{
+    background-color: #4343f9;
+}
+
+.btn1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    padding: 0;
+    border: 0;
+    margin-top: 25%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: #242d38;
+    color:  #efd592;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em
+}
+
+.btn2 {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    border-width: 6px;
+    border-color: #242d38;
+    border-style: solid;
+
+    background-color: #efd592;
+    color: #242d38;
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2em
+}
+
+.btn3 {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    bottom: 40px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+    background-color: #4343F9;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 400;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
