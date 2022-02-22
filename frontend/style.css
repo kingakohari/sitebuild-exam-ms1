@@ -39,6 +39,7 @@ border-radius: 0;
     height: 100vh;
     width: 100vw;
     max-width: 1200px;
+    margin: 0 auto;
     font-family:  'Poppins', sans-serif;
 }
 
@@ -57,9 +58,9 @@ border-radius: 0;
     border-radius: 200px;
     padding: 0;
     border: 0;
-    margin-top: 25%;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
     background-color: #242d38;
     color:  #efd592;
